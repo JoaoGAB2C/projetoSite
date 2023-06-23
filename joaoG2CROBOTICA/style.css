@@ -1,0 +1,90 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+
+.inicio{ background-color: #be4343;
+color: white; 
+display: flex;
+justify-content: space-around;
+align-items: center;}
+
+
+.inicio-imagem{
+    width: 10%;}
+
+.inicio-item{display: inline-block;
+margin: 0 16px;
+font-size: 15px;}
+
+.meio{
+    background-image:linear-gradient(#be4343,rgb(224, 159, 159));
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 24px;}
+
+.meio-imagem{ width: 25%;}
+
+.meio-div{ width: 35% ;
+}
+
+.meio-escola{
+    padding: 24px 0;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.fim-imagem{ width: 90px;
+padding: 11px;}
+
+.fim-imagem2{width: 90px;}
+
+.fim-imagem3{width: 90px;}
+
+.fim-imagem4{ width: 90px;}
+
+.fim-imagem5{ width: 90px;}
+
+.fim-imagem6{ width: 90px;}
+
+.fim-função{text-align: center;
+padding: 50px 0;}
+
+.fim-todos{ display: grid;
+grid-template-columns: 20% 20% 20% 20% 20%;}
+
+.fim-div-notas{text-align: left ;
+display: flex;
+font-size: 17px;}
+
+.fim-div-frequencia{text-align: center;
+    display: flex;
+    font-size: 20px;}
+
+.fim-div-calendario{text-align: right;
+    display: flex;
+font-size: 25px;}
+
+.fim-div-class{text-align: right;
+    display: flex;
+font-size: 13px;}
+
+.fim-div-plataformas{text-align: right;
+    display: flex;
+font-size: 13px;}
+
+.fim-div-materias{text-align: right;
+    display: flex;
+font-size: 13px;}
+
+.embaixo{background-color: black;
+color: white;
+text-align: center;
+}
+
+.embaixo-texto{ height: 30px;
+padding: 12px 0;}
